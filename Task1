@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Cədvəl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Məhsulun adi</th>
+                    <th>Qiyməti</th>
+                    <th>Status</th>
+                </tr>
+                  </thead>
+            <tbody>
+                <tr>
+                    <td>Laptop</td>
+                    <td>1200$</td>
+                    <td>Mövcud</td>
+
+
+CSS kodu;
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
