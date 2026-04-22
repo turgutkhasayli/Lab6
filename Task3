@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+
+        <div class="nav-right">
+            <a href="#" class="login-btn">Login</a>
+        </div>
+    </nav>
+
+</body>
+</html>
+
+CSS;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-left a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.login-btn:hover {
+    background-color: blue;
+}
